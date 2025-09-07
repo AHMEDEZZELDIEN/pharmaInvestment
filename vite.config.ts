@@ -51,7 +51,7 @@
     },
     build: {
       target: 'esnext',
-      outDir: 'build',
+      outDir: 'dist', // Changed from 'build' to 'dist' for Vercel
     },
     server: {
       port: 3000,
